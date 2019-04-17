@@ -232,7 +232,7 @@ module.exports = function FpsUtils2(mod) {
                     { text: `Hit mode:<br>` },
                     { text: `&#09;<font color="${mod.settings.hitMe ? green : red}"> [Hide your own effects and damage numbers] </font><br>`, command: `fps hit me;fps gui` },
                     { text: `&#09;<font color="${mod.settings.hitOther ? green : red}"> [Hide other players hit effects] </font><br>`, command: `fps hit other;fps gui` },
-                    { text: `&#09;<font color="${mod.settings.hitDamage ? green : red}"> [Hide damage numbers] </font><br><br>`, command: `fps hit other;fps gui` },
+                    { text: `&#09;<font color="${mod.settings.hitDamage ? green : red}"> [Hide damage numbers] </font><br><br>`, command: `fps hit damage;fps gui` },
                     { text: `<font color="${mod.settings.party ? green : red}"> [Hide players not in your party] </font><br>`, command: `fps party;fps gui` },
                     { text: `<font color="${mod.settings.hideAllSummons ? green : red}"> [Hide Summons] </font><br>`, command: `fps summons;fps gui` },
                     { text: `<font color="${mod.settings.keepMySummons ? green : red}"> [Hide your own summons] </font><br>`, command: `fps summons mine;fps gui` },
